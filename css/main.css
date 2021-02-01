@@ -232,6 +232,7 @@ footer{
     background:#fdd639;
     border: none;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .write-to-a-consultant input:focus{
