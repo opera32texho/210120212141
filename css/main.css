@@ -173,7 +173,7 @@ h4{
  }
  .coments-text:after {
     border-left-color: #f2fbff;
-    border-width: 16px;
+    border-width: 17px;
     margin-left: -17px;
  }
  .block-coments{
@@ -261,3 +261,37 @@ footer{
     }
 }
 
+@media (max-width: 629.98px) { 
+.coments-text:after{
+    content: '';
+    border: solid transparent;
+    position: absolute;
+    left: 6%;
+    margin-left: -12px;
+    top: -11px;
+    width: 0;
+}
+
+.coments-text:before {
+    border-width: 0px;
+ }
+ .coments-text:after {
+    border-left-color: #f2fbff;
+    border-width: 14px;
+    margin-left: 0px;
+ }
+
+ .block-coments:before{
+    content: '';
+    border: solid transparent;
+    position: absolute;
+    left: 5.4%;
+    margin-left: 0.3%;
+    top: 25px;
+    width: 0;
+ }
+ .block-coments:before {
+    border-left-color: #eaedef;
+    border-width: 15px;
+ }
+}
