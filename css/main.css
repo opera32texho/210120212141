@@ -229,6 +229,7 @@ footer{
 .write-to-a-consultant input{
     padding: 15px 58px;
     border-radius: 30px;
+    padding-left: 78px;
     background:#fdd639;
     border: none;
     font-weight: bold;
@@ -244,6 +245,7 @@ footer{
 
     .write-to-a-consultant input{
         padding: 15px 40px;
+        padding-left: 60px;
     }
     .change-offset{
         margin-left: 79%;;
